@@ -1,8 +1,8 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CTMediator"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/CTMediator"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"CTMediator" -framework "UIKit"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CTMediator" "${PODS_ROOT}/Headers/Public/ComponentHome_Category" "${PODS_ROOT}/Headers/Public/ComponentLogin" "${PODS_ROOT}/Headers/Public/ComponentLogin_Category" "${PODS_ROOT}/Headers/Public/Masonry"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CTMediator" "${PODS_CONFIGURATION_BUILD_DIR}/ComponentHome_Category" "${PODS_CONFIGURATION_BUILD_DIR}/ComponentLogin" "${PODS_CONFIGURATION_BUILD_DIR}/ComponentLogin_Category" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/CTMediator" -isystem "${PODS_ROOT}/Headers/Public/ComponentHome_Category" -isystem "${PODS_ROOT}/Headers/Public/ComponentLogin" -isystem "${PODS_ROOT}/Headers/Public/ComponentLogin_Category" -isystem "${PODS_ROOT}/Headers/Public/Masonry"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"CTMediator" -l"ComponentHome_Category" -l"ComponentLogin" -l"ComponentLogin_Category" -l"Masonry" -framework "Foundation" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

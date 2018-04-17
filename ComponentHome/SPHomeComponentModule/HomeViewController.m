@@ -7,6 +7,7 @@
 //
 
 #import "HomeViewController.h"
+#import <ComponentLogin_Category/CTMediator+ComponentLogin.h>
 
 @interface HomeViewController ()
 
@@ -38,6 +39,10 @@
 - (void)clickedBtn:(UIButton *)btn
 {
     NSLog(@"去登录");
+    
+    UIViewController * vc = [[CTMediator sharedInstance] ComponentLogin_loginViewControllerWithCallback:nil];
+    UINavigationController * nc = [[UINavigationController alloc] initWithRootViewController:vc];
+    [self presentViewController:nc animated:YES completion:^{}];
 }
 
 @end

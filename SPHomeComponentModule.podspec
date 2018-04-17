@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "SPHomeComponentModule"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "水平的组件库."
 
   s.description  = <<-DESC
@@ -51,5 +51,6 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
+  s.dependency "ComponentLogin_Category"
 
 end

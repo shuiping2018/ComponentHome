@@ -1,16 +1,46 @@
 PODS:
+  - ComponentHome_Category (0.0.1):
+    - CTMediator
+  - ComponentLogin (0.0.1):
+    - ComponentLogin/LoginModule (= 0.0.1)
+    - ComponentLogin/Targets (= 0.0.1)
+    - Masonry (~> 1.1.0)
+  - ComponentLogin/LoginModule (0.0.1):
+    - Masonry (~> 1.1.0)
+  - ComponentLogin/Targets (0.0.1):
+    - ComponentLogin/LoginModule
+    - Masonry (~> 1.1.0)
+  - ComponentLogin_Category (0.0.1):
+    - CTMediator
   - CTMediator (13)
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
+  - ComponentHome_Category (from `~/Desktop/ComponentHome_Category/`)
+  - ComponentLogin (from `~/Desktop/ComponentLogin/`)
+  - ComponentLogin_Category (from `~/Desktop/ComponentLogin_Category/`)
   - CTMediator
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - CTMediator
+    - Masonry
+
+EXTERNAL SOURCES:
+  ComponentHome_Category:
+    :path: "~/Desktop/ComponentHome_Category/"
+  ComponentLogin:
+    :path: "~/Desktop/ComponentLogin/"
+  ComponentLogin_Category:
+    :path: "~/Desktop/ComponentLogin_Category/"
 
 SPEC CHECKSUMS:
+  ComponentHome_Category: 4844cbdf0822dd0225c3e4eb3b40618ee8b8d6da
+  ComponentLogin: d54f7d737ec47a46d686dbabbe24b54af34081f5
+  ComponentLogin_Category: a4a60d1cc61bef8257209ac0c50fc61711775703
   CTMediator: 4cbf8ede42efc6b31715be88b78bdc9d94efa840
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 546e211da1904885e338a6e66ee859956ae08b6e
+PODFILE CHECKSUM: 7f5b605ea46194e7f990a3b13347d52a8bd2b5cf
 
 COCOAPODS: 1.5.0

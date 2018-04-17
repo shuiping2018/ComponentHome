@@ -11,6 +11,10 @@ target 'ComponentHome' do
   # Pods for ComponentHome
   
   pod "CTMediator"
+  
+  pod 'ComponentLogin', :path =>'~/Desktop/ComponentLogin/'
+  pod 'ComponentLogin_Category', :path =>'~/Desktop/ComponentLogin_Category/'
+  pod 'ComponentHome_Category', :path =>'~/Desktop/ComponentHome_Category/'
 
   target 'ComponentHomeTests' do
     inherit! :search_paths
