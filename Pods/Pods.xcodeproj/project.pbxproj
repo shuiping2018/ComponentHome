@@ -17,25 +17,27 @@
 		144E5D7356C8A59949DF17ED37BEF2B3 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DC031F2BA199CE6722AD40FE13526079 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		1980C5D3D83D98962A821FE3606663EC /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CEAE4DE0D2D880C6CDE8AEF9E78D33 /* MASCompositeConstraint.m */; };
 		1A40E12F5167E8662C98CDEC601E5B9D /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E619BCF88261D8E28042B974F78BA566 /* ViewController+MASAdditions.m */; };
-		215055A4D031256C781B6AB82E83C5F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		22304AC91CC13423AF980FE0AB6638CB /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = EE216822BE28BFBB5047D4336EBE0DED /* MASViewAttribute.m */; };
 		288375BC81AEED955AF81A5B067AE530 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = D19A118A82C08A59C70739FCF2E9ED3C /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		28C5ADD9B9AB676DB0781A979FC09AD2 /* ComponentLogin_Category-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC8717ED8B637B5B3F46D0B29B7D85D /* ComponentLogin_Category-dummy.m */; };
 		321AE8C9D85B63381DB4152C43EB4B5C /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D3A9982459C7052314F55179205DD7AF /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		33FA5EF52115385E63256851B8438FA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		360810453C58B6771879A75D367535D9 /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E2FAD9F0D94250D44480F8AE0DCF46 /* CTMediator-dummy.m */; };
 		3F44E020E61FC7D08869173384CB7A21 /* Pods-ComponentHomeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4650880F1CB2ECE4BCF4C486193CA20C /* Pods-ComponentHomeTests-dummy.m */; };
 		44A0907D485661206206F76F9C0C3AA8 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD7D94ECE5212E850A32535F6B10DB6 /* MASConstraintMaker.m */; };
 		5E645AFEDE1BFD388F7AB5960D798F99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		5E71ADCECCF97068B130747F0C7E10A6 /* CTMediator+ComponentLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC96E6F2135B20737B0E1E8970FC6CD /* CTMediator+ComponentLogin.m */; };
 		6123CC10AF12B3F8D437D4ACEE67CF21 /* Pods-ComponentHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3F69C07842D653C876471A26FAD396 /* Pods-ComponentHome-dummy.m */; };
 		66FF763EE49FC4B091F09E5E190D1F89 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CBF117B2AD7FF391B4944714279D94 /* Masonry-dummy.m */; };
 		69127D82076874B3D0292B14995F7440 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		69C4AE78ECC516F731B34C453F91CBE1 /* CTMediator+ComponentLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = D5E596DDBA06AF34CB5765628D7776A6 /* CTMediator+ComponentLogin.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6AEBCBE966FEB386580E63E84060823A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		6CCA8A6DD3CC9EF245DB18AA2083C025 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = F40E66AA33FD460A62F960F8321955A6 /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6F753C257670ACBD55128DD1E90E9E05 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E98F83A6795FC05506BA737D8AE8EE6B /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7035611D36FB8125F92E38947DEEFCEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		766F3E5F06D443E1CEB2B1D7831BEDD6 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F7FC26F17546BA3C589EAF3558E264B /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		77AC28477EDBFC4DE0CD86BD354E0538 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CD2466E512F92C6AE5C5A71C2778FC2 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7B2F5DF30210F2B6C7813084266A1F05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		7CB91ECD49471C0B9E83FC54EB909275 /* ComponentLogin_Category-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC8717ED8B637B5B3F46D0B29B7D85D /* ComponentLogin_Category-dummy.m */; };
 		7E2BDBF01A4BCB3B0CC9588CB243AAA3 /* Pods-ComponentHomeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 672136659C5A01F2A6BF6E86851075C5 /* Pods-ComponentHomeUITests-dummy.m */; };
 		83BE316766DB0F4542A7ABCA0C2BA7B6 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B5D8C0F5A595E680488F015A1CE5FA7 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8B8F655B35B0E68B0BEC631EAA085D39 /* Target_ComponentLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C4927FD29B0EE9143770F0F3BA55F3 /* Target_ComponentLogin.m */; };
@@ -44,10 +46,8 @@
 		A266EF4C37E19CAE09D3D40BF26FBFB3 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5CCB517A69DFA2AE811845442AC152 /* CTMediator.m */; };
 		A78025EC85EA63DDF0BC20DCAAD4196C /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9176F67A4C6075F4D659FED4AE29F8B8 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AB182F21A8D3C919A6F97059A1701A0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		ACDB5E09AD1A92389BDBC00CDABA1D9D /* CTMediator+ComponentLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC96E6F2135B20737B0E1E8970FC6CD /* CTMediator+ComponentLogin.m */; };
 		B3106695A6C358203C1FF9E09FD138B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		BB0DAF14A5856EF4734438D9D954F59C /* CTMediator+Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 48367BD87A411A0CAFE8B8D576B6A2D9 /* CTMediator+Home.m */; };
-		BE4D8AF58467170BAD5767BC8E606D71 /* CTMediator+ComponentLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = D5E596DDBA06AF34CB5765628D7776A6 /* CTMediator+ComponentLogin.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C04489D0FFA05214D627C5C6D353FFE0 /* Target_ComponentLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E76B7E2F513E2B957AC296B7601F84B /* Target_ComponentLogin.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C3203A2BDDC5CCCA2F228698746FBFA0 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB4577981B203E65B9DB5851D4B58AD /* LoginViewController.m */; };
 		C42BF3F613608D058E692635AEE057C2 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1706A551C070CD2728FBA687D82F13 /* MASConstraint.m */; };
@@ -63,6 +63,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		09E1F472DD4E78B4B831F5A0B4D32935 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C304698FFF282532DA7899F71192B068;
+			remoteInfo = Masonry;
+		};
 		3E49F08BC260275EF0D7AD3C453A6A06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -74,7 +81,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E509EDD8922BA47A0ADB1AAC6685BBD6;
+			remoteGlobalIDString = 1DA02A3525E63E5C199A34136C7B2D55;
 			remoteInfo = ComponentLogin_Category;
 		};
 		5CFD4660762BBC6095138F98AECD76B4 /* PBXContainerItemProxy */ = {
@@ -105,12 +112,26 @@
 			remoteGlobalIDString = 5A73FDB91D201287018BF2B71D6EB7B7;
 			remoteInfo = ComponentHome_Category;
 		};
+		A6B7E3C2DBC146E73AFF11433095D0B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C4E1FF4AD9B528DDD3C1E80B2EC687C;
+			remoteInfo = ComponentLogin;
+		};
 		D8836BB501BB23456D4892028F68778E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C304698FFF282532DA7899F71192B068;
 			remoteInfo = Masonry;
+		};
+		E767FC72FD72D4702B818EA79B73473F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6519A9BE367F0B7DF45816AEFBD5FC57;
+			remoteInfo = CTMediator;
 		};
 		ED694A4993FD27AD609AE7B8B69BEA6D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -120,13 +141,6 @@
 			remoteInfo = Masonry;
 		};
 		EF8403F20C277742C502A69E0317001D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6519A9BE367F0B7DF45816AEFBD5FC57;
-			remoteInfo = CTMediator;
-		};
-		F2E82B4B086E7915715D9F3FBC9FCB38 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -256,11 +270,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		870569DC95945705582C08EC06D35396 /* Frameworks */ = {
+		933BE36BF4612CA96D3CF31810C37946 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				215055A4D031256C781B6AB82E83C5F5 /* Foundation.framework in Frameworks */,
+				7035611D36FB8125F92E38947DEEFCEE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,14 +606,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3D01F9007E842401DD0E17C557E2CC6A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE4D8AF58467170BAD5767BC8E606D71 /* CTMediator+ComponentLogin.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		45AAB6E602EB184ADA2613D430D476FC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -647,6 +653,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F89955A3C5FB13C6CE15C8B2D376630B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C4AE78ECC516F731B34C453F91CBE1 /* CTMediator+ComponentLogin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -686,6 +700,26 @@
 			name = "Pods-ComponentHome";
 			productName = "Pods-ComponentHome";
 			productReference = 4867C17151A17B846E23E2D6BD5F0D9B /* libPods-ComponentHome.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1DA02A3525E63E5C199A34136C7B2D55 /* ComponentLogin_Category */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F894D2980C73271CAC343A2DBE4FE7 /* Build configuration list for PBXNativeTarget "ComponentLogin_Category" */;
+			buildPhases = (
+				5126028CA8393B9B00B2C128E61C61A9 /* Sources */,
+				933BE36BF4612CA96D3CF31810C37946 /* Frameworks */,
+				F89955A3C5FB13C6CE15C8B2D376630B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCE7EDD9092983590C972D6CC5B50573 /* PBXTargetDependency */,
+				5F9EC2EBBDFCDF769E730974919BF69B /* PBXTargetDependency */,
+				FDBAD3BBF4326A855ACDCE50E32E2676 /* PBXTargetDependency */,
+			);
+			name = ComponentLogin_Category;
+			productName = ComponentLogin_Category;
+			productReference = 98D82639BCA2F0164F35016C6793DB64 /* libComponentLogin_Category.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		5A73FDB91D201287018BF2B71D6EB7B7 /* ComponentHome_Category */ = {
@@ -775,24 +809,6 @@
 			productReference = 2980FEF24B2695E967569539272D7D0E /* libMasonry.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		E509EDD8922BA47A0ADB1AAC6685BBD6 /* ComponentLogin_Category */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BAAA5C5E78D0FAB5F5123A627D49CD51 /* Build configuration list for PBXNativeTarget "ComponentLogin_Category" */;
-			buildPhases = (
-				544C4BFFB9294E2964AA61F0B28DDE8E /* Sources */,
-				870569DC95945705582C08EC06D35396 /* Frameworks */,
-				3D01F9007E842401DD0E17C557E2CC6A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A56FC4EBB8B867492F11A4A78B59E130 /* PBXTargetDependency */,
-			);
-			name = ComponentLogin_Category;
-			productName = ComponentLogin_Category;
-			productReference = 98D82639BCA2F0164F35016C6793DB64 /* libComponentLogin_Category.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -816,7 +832,7 @@
 			targets = (
 				5A73FDB91D201287018BF2B71D6EB7B7 /* ComponentHome_Category */,
 				9C4E1FF4AD9B528DDD3C1E80B2EC687C /* ComponentLogin */,
-				E509EDD8922BA47A0ADB1AAC6685BBD6 /* ComponentLogin_Category */,
+				1DA02A3525E63E5C199A34136C7B2D55 /* ComponentLogin_Category */,
 				6519A9BE367F0B7DF45816AEFBD5FC57 /* CTMediator */,
 				C304698FFF282532DA7899F71192B068 /* Masonry */,
 				192B255A92A53CC2E1AF551ED5C380CE /* Pods-ComponentHome */,
@@ -835,12 +851,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		544C4BFFB9294E2964AA61F0B28DDE8E /* Sources */ = {
+		5126028CA8393B9B00B2C128E61C61A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CB91ECD49471C0B9E83FC54EB909275 /* ComponentLogin_Category-dummy.m in Sources */,
-				ACDB5E09AD1A92389BDBC00CDABA1D9D /* CTMediator+ComponentLogin.m in Sources */,
+				28C5ADD9B9AB676DB0781A979FC09AD2 /* ComponentLogin_Category-dummy.m in Sources */,
+				5E71ADCECCF97068B130747F0C7E10A6 /* CTMediator+ComponentLogin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -924,8 +940,14 @@
 		46CB203003CB0ECB8AB3AB6BD48461EA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ComponentLogin_Category;
-			target = E509EDD8922BA47A0ADB1AAC6685BBD6 /* ComponentLogin_Category */;
+			target = 1DA02A3525E63E5C199A34136C7B2D55 /* ComponentLogin_Category */;
 			targetProxy = 4A8E61ABEC5FFC809AD16FDD1215CA22 /* PBXContainerItemProxy */;
+		};
+		5F9EC2EBBDFCDF769E730974919BF69B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ComponentLogin;
+			target = 9C4E1FF4AD9B528DDD3C1E80B2EC687C /* ComponentLogin */;
+			targetProxy = A6B7E3C2DBC146E73AFF11433095D0B4 /* PBXContainerItemProxy */;
 		};
 		7BB8DD57C9D7B94F13BA1D69FCBE6C97 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -945,17 +967,17 @@
 			target = 9C4E1FF4AD9B528DDD3C1E80B2EC687C /* ComponentLogin */;
 			targetProxy = 3E49F08BC260275EF0D7AD3C453A6A06 /* PBXContainerItemProxy */;
 		};
-		A56FC4EBB8B867492F11A4A78B59E130 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CTMediator;
-			target = 6519A9BE367F0B7DF45816AEFBD5FC57 /* CTMediator */;
-			targetProxy = F2E82B4B086E7915715D9F3FBC9FCB38 /* PBXContainerItemProxy */;
-		};
 		B4352F327DAD36372046B5FCE03EE4AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
 			target = C304698FFF282532DA7899F71192B068 /* Masonry */;
 			targetProxy = ED694A4993FD27AD609AE7B8B69BEA6D /* PBXContainerItemProxy */;
+		};
+		BCE7EDD9092983590C972D6CC5B50573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6519A9BE367F0B7DF45816AEFBD5FC57 /* CTMediator */;
+			targetProxy = E767FC72FD72D4702B818EA79B73473F /* PBXContainerItemProxy */;
 		};
 		ECD944631EB6A6F28A7C59F0D04C9F84 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -969,33 +991,15 @@
 			target = 6519A9BE367F0B7DF45816AEFBD5FC57 /* CTMediator */;
 			targetProxy = EF8403F20C277742C502A69E0317001D /* PBXContainerItemProxy */;
 		};
+		FDBAD3BBF4326A855ACDCE50E32E2676 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = C304698FFF282532DA7899F71192B068 /* Masonry */;
+			targetProxy = 09E1F472DD4E78B4B831F5A0B4D32935 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		28F6CD514EE7C6370B30D2A595FA4089 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69C8906B1281F3C47E5428A574F5C77D /* ComponentLogin_Category.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ComponentLogin_Category/ComponentLogin_Category-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ComponentLogin_Category;
-				PRODUCT_NAME = ComponentLogin_Category;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		3FAAD0CB33EAB1D37686D765889AD681 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0993D4A0AA4844A0CC82FDA0DC95E4F /* CTMediator.xcconfig */;
@@ -1011,6 +1015,29 @@
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = CTMediator;
 				PRODUCT_NAME = CTMediator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42496967CFC040C38DF10E6E02B77C66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C8906B1281F3C47E5428A574F5C77D /* ComponentLogin_Category.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ComponentLogin_Category/ComponentLogin_Category-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ComponentLogin_Category;
+				PRODUCT_NAME = ComponentLogin_Category;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1037,29 +1064,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		5310F803DCC17A0F6868D803D0C2AA63 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69C8906B1281F3C47E5428A574F5C77D /* ComponentLogin_Category.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ComponentLogin_Category/ComponentLogin_Category-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ComponentLogin_Category;
-				PRODUCT_NAME = ComponentLogin_Category;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1416,6 +1420,30 @@
 			};
 			name = Release;
 		};
+		F5DF8C1EDB0F524A6CEEC75266E438E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C8906B1281F3C47E5428A574F5C77D /* ComponentLogin_Category.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ComponentLogin_Category/ComponentLogin_Category-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ComponentLogin_Category;
+				PRODUCT_NAME = ComponentLogin_Category;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		FC2D6C5344BA88223391EB57C1BD5948 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BBA415C8B44755E90779DED288890A96 /* ComponentHome_Category.xcconfig */;
@@ -1466,6 +1494,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		13F894D2980C73271CAC343A2DBE4FE7 /* Build configuration list for PBXNativeTarget "ComponentLogin_Category" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42496967CFC040C38DF10E6E02B77C66 /* Debug */,
+				F5DF8C1EDB0F524A6CEEC75266E438E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1534,15 +1571,6 @@
 			buildConfigurations = (
 				A44AA9DB97D049553F80D02F047993D2 /* Debug */,
 				DD482F0E5F5BC6B1539B23DAC9971D1C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BAAA5C5E78D0FAB5F5123A627D49CD51 /* Build configuration list for PBXNativeTarget "ComponentLogin_Category" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5310F803DCC17A0F6868D803D0C2AA63 /* Debug */,
-				28F6CD514EE7C6370B30D2A595FA4089 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

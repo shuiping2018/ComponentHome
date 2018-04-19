@@ -27,8 +27,15 @@
     
 //    UIViewController * vc = [[CTMediator sharedInstance] ComponentLogin_loginViewControllerWithCallback:nil];
     
-    UIViewController * vc = [[CTMediator sharedInstance] Home_homeViewControllerWithCallback:nil];
+//    UIViewController * vc = [[CTMediator sharedInstance] Home_homeViewControllerWithCallback:^(NSString *result) {
+//
+//    }];
     //    UIViewController * vc = [[[Targets_ComponentLogin alloc] init] Action_viewController:nil];
+    
+    UIViewController * vc = [[CTMediator sharedInstance] Home_homeViewControllerWithCallback:^(NSString *result) {
+        
+    }];
+    
     UINavigationController * nc = [[UINavigationController alloc] initWithRootViewController:vc];
     [self presentViewController:nc animated:YES completion:^{
         

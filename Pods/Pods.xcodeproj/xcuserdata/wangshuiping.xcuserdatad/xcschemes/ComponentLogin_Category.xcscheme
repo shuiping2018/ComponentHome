@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E509EDD8922BA47A0ADB1AAC6685BBD6"
+               BlueprintIdentifier = "1DA02A3525E63E5C199A34136C7B2D55"
                BlueprintName = "ComponentLogin_Category"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libComponentLogin_Category.a">

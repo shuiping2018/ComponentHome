@@ -11,6 +11,7 @@ PODS:
     - ComponentLogin/LoginModule
     - Masonry (~> 1.1.0)
   - ComponentLogin_Category (0.0.1):
+    - ComponentLogin
     - CTMediator
   - CTMediator (13)
   - Masonry (1.1.0)
@@ -37,7 +38,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   ComponentHome_Category: 4844cbdf0822dd0225c3e4eb3b40618ee8b8d6da
   ComponentLogin: d54f7d737ec47a46d686dbabbe24b54af34081f5
-  ComponentLogin_Category: a4a60d1cc61bef8257209ac0c50fc61711775703
+  ComponentLogin_Category: 6c733b118b45c20a82adfd90fbf5939588222dbb
   CTMediator: 4cbf8ede42efc6b31715be88b78bdc9d94efa840
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 

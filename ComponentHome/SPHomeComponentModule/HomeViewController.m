@@ -40,7 +40,18 @@
 {
     NSLog(@"去登录");
     
-    UIViewController * vc = [[CTMediator sharedInstance] ComponentLogin_loginViewControllerWithCallback:nil];
+//    UIViewController * vc = [[CTMediator sharedInstance] ComponentLogin_loginViewControllerWithCallback:nil];
+    UIViewController * vc = [[CTMediator sharedInstance] ComponentLogin_NewLoginViewControllerWithCallback:^(NSDictionary *info) {
+        
+        UIAlertAction *confirmAction = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        }];
+        
+        UIAlertController *alertController = [UIAlertController alertControllerWithTitle:info[@"accout"] message:info[@"password"] preferredStyle:UIAlertControllerStyleAlert];
+        [alertController addAction:confirmAction];
+        [self presentViewController:alertController animated:YES completion:nil];
+        
+    }];
+    
     UINavigationController * nc = [[UINavigationController alloc] initWithRootViewController:vc];
     [self presentViewController:nc animated:YES completion:^{}];
 }

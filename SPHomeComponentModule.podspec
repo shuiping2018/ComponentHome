@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "SPHomeComponentModule"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "水平的组件库."
 
   s.description  = <<-DESC
